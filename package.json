@@ -1,0 +1,15 @@
+{
+  "name": "vibimage",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Image conversion tool with EXIF metadata handling",
+  "main": "src/vibimage-cli.js",
+  "scripts": {
+    "convert": "node src/vibimage-cli.js"
+  },
+  "dependencies": {
+    "@imagemagick/magick-wasm": "^0.0.30",
+    "node-exiftool": "^2.3.0",
+    "dist-exiftool": "^12.76.0"
+  }
+}
