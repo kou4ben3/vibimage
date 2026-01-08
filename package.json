@@ -10,6 +10,6 @@
   "dependencies": {
     "@imagemagick/magick-wasm": "^0.0.30",
     "node-exiftool": "^2.3.0",
-    "dist-exiftool": "^12.76.0"
+    "dist-exiftool": "^10.53.0"
   }
 }
