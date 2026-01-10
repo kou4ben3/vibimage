@@ -19,6 +19,6 @@
 1. Install Windows Subsystem for Linux (WSL) through terminal by running the `wsl` command.
 2. Once installed and setup, run the command `wsl --mount "path-to-vhd" --vhd` in the Windows terminal, replacing `path-to-vhd` with the local path to the VHD on your system. You might see an error such as `The disk was attached but failed to mount`; ignore it, as we can mount the disk ourselves.
 3. Start WSL by running the `wsl` command in terminal.
-4. From within WSL, run the `lsblk` command. Look for your VHD in this list; the device should be approximately 469MB in size, and have a partition labeled beneath the physical disk. It will likely be named `sdd1`, `sde1`, or something of that sort.
+4. From within WSL, run the `lsblk` command. Look for your VHD in this list; the device should be between 400-500MB in size, and have a partition labeled beneath the physical disk. It will likely be named `sdd1`, `sde1`, or something of that sort.
 5. If it's your first time doing this, create a new directory for the VHD to be mounted to using this command: `mkdir -p ~/vib`
 6. With the directory created, mount the VHD disk using this command: `sudo mount /dev/<disk> ~/vib` where <disk> is replaced with the VHD you identified in `lsblk`.
