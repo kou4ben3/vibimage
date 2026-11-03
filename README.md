@@ -3,7 +3,7 @@
 ## Requirements
 * Node.js
 * A prepared image file saved in JPG format with a 1:1 aspect ratio
-* Downloaded and extracted the VHD template
+* Downloaded and extracted the VHD template (https://drive.google.com/file/d/1mmT3kBYmCoCGIWFrFtJP4MU3ftBCULT6/view?usp=sharing)
 * Latest PCSX2 nightly version and Vib-Ripple ROM
 
 ## Steps for image conversion
